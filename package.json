@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon workshop/server.js"
+    "dev": "nodemon workshop/server.js",
+    "test": "NODE_ENV=test tape 'workshop/tests/* | tap-spec"
   },
   "keywords": [],
   "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
